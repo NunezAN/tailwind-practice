@@ -5,7 +5,7 @@ import logo from "../images/logo.svg";
 
 const ApparelLanding = () => {
   return (
-    <div className="w-[360px] md:max-w-7xl md:w-full bg-[#FFF7F7] m-auto ">
+    <div className="w-[360px] md:max-w-7xl md:w-full bg-[#FFF7F7] m-auto">
       <div className="md:hidden h-[80px] flex items-center p-8">
         <img className="w-[100px]" src={logo} alt="" />
       </div>
@@ -15,7 +15,7 @@ const ApparelLanding = () => {
       <div className="md:flex md:flex-row-reverse md:w-full">
         <div className="md:w-[50%] md:flex md:justify-end">
           <img
-            className="hidden md:block"
+            className="hidden md:block md:w-full"
             src={heroDesk}
             alt=""
           />
