@@ -10,10 +10,11 @@ import SignUp from "./components/SignUp";
 import StatsPreview from "./components/StatsPreview";
 import ThreePreviewCard from "./components/ThreePreviewCard";
 import NotificationsPage from "./components/NotificationsPage";
+import Advice from "./components/Advice";
 
 function App() {
   return (
-    <div className="App bg-white w-full min-h-screen flex flex-col" id="yep">
+    <div className="App bg-black w-full min-h-screen flex flex-col p-2" id="yep">
       {/* <StatsPreview/> */}
       {/* <ThreePreviewCard /> */}
       {/* <Faq/> */}
@@ -21,7 +22,8 @@ function App() {
       <SignUp /> */}
       {/* <NewsHome /> */}
       {/* <CardDetailsForm/> */}
-      <NotificationsPage/>
+      {/* <NotificationsPage/> */}
+      <Advice/>
     </div>
   );
 }
