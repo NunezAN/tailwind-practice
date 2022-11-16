@@ -23,7 +23,7 @@ function App() {
       {/* <NewsHome /> */}
       {/* <CardDetailsForm/> */}
       {/* <NotificationsPage/> */}
-      <Advice/>
+      {/* <Advice/> */}
     </div>
   );
 }
